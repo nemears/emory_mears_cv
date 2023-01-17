@@ -4,47 +4,76 @@
 \begin{document}
 
 %  TITLE
-\paragraph{\centering \huge Nicholas Mears \\ }
+\paragraph{\centering \huge Nicholas Emerson Mears \\ }
 \paragraph{\centering nickmears2@gmail.com (203)-913-9891 \url{https://github.com/nemears}\\}
 
 % preamble
 An imaginative software engineer with determination to deliver well thought out honest work that is modern and fast. Well rounded with experience, determined to provide insight to create simple and functional code to get the job done.
 
+\section*{Skills}
+\begin{tabular}{p{18.5cm}}
+  \hline
+  \multicolumn{1}{c}{} \\
+  C++, C, java, python, POSIX, bash, rust, typescript, javascript, modeling and simulation, UML/SysML, cmake, gradle, groovy, kotlin, 
+  DIS, modern C++ design, networking and sockets, systems programming, concurrent programming
+\end{tabular}
+
 % work experience
 \section*{Work Experience}
-\begin{tabular}[t]{p{4cm} p{14cm}}
-  \hline \\
-    \raggedright
-    \large \textbf{Software Systems Engineer} &
-    \textit{MITRE, 202 Burlington Rd, Bedford MA \hfill October 2019 - Current} \newline
-	  Intermediate level software engineer for the Emerging Systems Engineering Technologies department at MITRE. Primary responsibility of the job was to support sponsor projects in the role of connecting different digitial tools together to expand their use. The work focused on modeling and simulating software using SysML and UML modeling languages in tandem with simulation tools, real world api's and hardware.
+\begin{tabular}{p{18.5cm}}
+    \hline
+    \multicolumn{1}{c}{} \\
+    \large \textbf{Software Systems Engineer} \normalsize \textit{MITRE, 202 Burlington Rd, Bedford MA \hfill October 2019 - Current}
+
+    \> Intermediate level software engineer for the Emerging Systems Engineering Technologies department at MITRE. Primary responsibility 
+    is leading the software engineering on two projects at a time, coming up with the general design and assigning tasking to a small team
+    of around 3 including myself on each project. Software deals with simulation environments/engines, as well as visual modeling tools such as 
+    UML and SysML based applications.
+
+    % \> Intermediate level software engineer for the Emerging Systems Engineering Technologies department at MITRE. Primary responsibility of the job was to support sponsor projects in the role of connecting different digitial tools together to expand their use. The work focused on modeling and simulating software using SysML and UML modeling languages in tandem with simulation tools, real world api's and hardware
+
 \end{tabular}
 
-% projects
 \section*{Projects}
-\begin{tabular}[t]{p{4cm} p{14cm}}
-  \hline
-  \multicolumn{2}{c}{} \\
-  \raggedright
-  \large \textbf{Simulation Tool for Aircraft System Testbed} &
-  \textit{Project: Aircraft testbed, Mitre \hfill January 2021 - current} \newline
-  Lead developer for reusing an aircraft simulation tool as a pipeline to test software against the physical inputs from the overall system. The work involved taking the events from the simulation and sending messages over a message bus as input to the systems to test. In addition worked on porting windows c to Posix to have simulation engine containerized and easily deployable.\\
-  \multicolumn{2}{c}{} \\
-  \large \textbf{Physics Tool UML Integration} &
-  \textit{Project: UML plugin for simulation, Mitre \hfill November 2020 - October 2021} \newline
-  Lead developer for a tool that linked the syntax of physics simulation engine to a UML diagramming tool, Magicdraw. The physics simulation tool had its own syntax and filetype that had not been parsed into and emit out from UML diagrams before. The task took the engines syntax and mapped it to visual diagrams within the UML tool and used those diagrams edited or not in the tool to export back out to functional code. \\
-  \multicolumn{2}{c}{} \\
-  \large \textbf{uml-cpp} &
-  \textit{Personal project \hfill June 2020 - current} \newline
-  Working with antiquated apis and not being able to directly interact with those apis from embedded systems I decided to take on the responsibility of creating a modular api in c++ that follows the uml 2.5 specification in my free time. The project helped refine my modern c++ programming skills. Source code: \url{https://github.com/nemears/uml-cpp} \\
-  \multicolumn{2}{c}{} \\
-  \raggedright
-  \large \textbf{Publication on Non-Equilibrium Thermodynamics} &
-  \textit{Worcester Polytechnic Institute \hfill June 2018 - May 2019} \newline
-  WPI senior year MQP capstone, I worked in a lab as part of a team where I developed python convolutional video analysis algorithms. My work was included in a publication in the journal Nature: \url{https://arxiv.org/pdf/1812.06002.pdf} \\
+\begin{tabular}{p{18.5cm}}
+    \hline
+    \multicolumn{1}{c}{} \\
+
+    \large \textbf{Simulation Tool for Aircraft System Testbed} \normalsize \textit{Mitre \hfill January 2021 - current}
+
+    \> Working with a small team on hosting a system that runs a high fidelity real time 
+    simulation written in C++ in order to develop an adapter for the aircraft being simulated and an open
+    message interface to interact with hardware in the loop.\\
+    \multicolumn{1}{c}{} \\
+
+    \large \textbf{Simulation Language Static Analysis Tool} \normalsize \textit{Mitre \hfill November 2020 - October 2021}  
+
+    \> Lead developer for a tool that linked the syntax of physics simulation engine to a UML diagramming tool, Magicdraw. 
+    The physics simulation tool had its own syntax and filetype, therefore the task took the engines syntax and mapped it 
+    to visual diagrams within the UML tool and used those diagrams edited or not in the tool to export back out to functional code. \\
+    \multicolumn{1}{c}{} \\
+
+    \large \textbf{Open Source UML C++ Interface} \normalsize \textit{Personal project \hfill June 2020 - current}  
+
+    \> An attempt to provide a C++ interface to UML that is fast, lightweight and can also integrate with current tools. Fun project that
+    is maturing and can hopefully make a difference in the Systems Engineering industry. Fun project to practice modern C++ design principles.
+    Source code: \url{https://github.com/nemears/uml-cpp} \\
+    \multicolumn{1}{c}{} \\
+
+    \large \textbf{Model Filtering Tool} \normalsize \textit{Mitre \hfill December 2021 - current}  
+
+    \> Leading a small team in developing and maintaining a set of filters written in java for the SysML MagicDraw environment. Software relies on 
+    graph and set theory to apply user supplied filters from a ui to the SysML model. The software was developed for a complex data set
+    that the Air Force had to deal with and is deployed onto classified infrastructure.\\
+    \multicolumn{1}{c}{} \\
+
+    \large \textbf{VSCode Modeling Extension and Website} \normalsize \textit{Personal Project \hfill June 2022 - current}  
+
+    \> Writing mostly typescript and javascript code for a frontend for a server created in the UML C++ Interface. Code interacts with server through 
+    tcp sockets, the VSCode api, and a javascript diagramming library (diagram-js). Hope is to have it be a free modeling environement unlike current 
+    options. Source code: \url{https://github.com/nemears/open-uml} \\
 \end{tabular}
 
-% education
 \section*{Education}
 \begin{tabular}{l l}
   \hline
@@ -60,14 +89,6 @@ An imaginative software engineer with determination to deliver well thought out 
       GPA: 3.75 Graduated May 2019 with High Distinction
     \end{flushleft}
   \end{minipage}
-\end{tabular}
-
-% skills
-\section*{Skills}
-\begin{tabular}{p{18.5cm}}
-  \hline
-  \multicolumn{1}{c}{} \\
-  C++, java, python, POSIX, bash, concurrent programming, socket programming, source control, jira, linear algebra, differential equations, graph theory, embedded systems, UML, modeling and simulation
 \end{tabular}
 
 \end{document}
