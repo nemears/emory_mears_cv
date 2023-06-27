@@ -1,10 +1,11 @@
 \documentclass[11pt]{article}
 \usepackage[margin=0.5in]{geometry}
 \usepackage{hyperref}
+\usepackage{enumitem}
 \usepackage{xcolor}
 \hypersetup{%
   colorlinks=true,% hyperlinks will be coloured
-  linkcolor=blue,% hyperlink text will be green
+  linkcolor=red,% hyperlink text will be green
   linkbordercolor=red,% hyperlink border will be red
 }
 \begin{document}
@@ -14,15 +15,15 @@
 \paragraph{\centering she/her emory@uml.cafe (203)-913-9891 \url{https://github.com/nemears}\\}
 
 % preamble
-An imaginative software engineer with determination to deliver well thought out honest work that is modern and fast. Well rounded with experience, 
-determined to provide insight to create efficient and functional code to get the job done. 
+An innovative software engineer with a passion for computers and modern and simple programming. She is well rounded with experience,
+ determined to provide insight to create efficient and functional code, and learn some new concepts on the way there. 
 
 \section*{Skills}
 \begin{tabular}{p{18.5cm}}
   \hline
   \multicolumn{1}{c}{} \\
-  C++, C, Rust, Java, Python, POSIX, Bash, Typescript, Javascript, Modeling and Simulation, UML/SysML, Cmake, Gradle, Groovy, Kotlin, 
-  DIS, Modern C++ Design, Networking and Sockets, Systems Programming, Concurrent Programming
+  C++, C, Rust, Java, Python, POSIX, Bash, TypeScript, JavaScript, Modeling and Simulation, Cmake, Gradle, Groovy, Kotlin, 
+  DIS, Modern C++ Design, Networking and Sockets (TCP, UDP, TLS, Websocket, etc.), Systems Programming, Concurrent Programming, UML/SysML
 \end{tabular}
 
 % experience
@@ -32,39 +33,45 @@ determined to provide insight to create efficient and functional code to get the
     \multicolumn{1}{c}{} \\
 
     %MITRE
-    \large \textbf{Software Systems Engineer at MITRE} \normalsize \textit{MITRE, 202 Burlington Rd, Bedford MA \hfill October 2019 - Current}
+    \large \textbf{Software Systems Engineer} \normalsize \textit{MITRE, 202 Burlington Rd, Bedford MA \hfill October 2019 - Current}
 
-    \> Software Systems Engineer for the Emerging Systems Engineering Technologies department at MITRE. MITRE assigns staff to work 
-    on two seperate projects at a time, so resonsibilities and tasking varied based on what what was assigned. The following is the 
-    description of the projects and tasks that she completed, most recent to least. Most recently she worked on C++ model of a system
-    to be used for testing, mostly working on the routing of data throughout it so it could integrate well. She also worked on a set
-    of tools used for identifying important connections in models of networks. Another effort she worked on was integrating a 
-    simulation environment with the modeling tool MagicDraw, this involved a set of static analysis tools that looked at the 
-    Abstract Syntax Tree of the simulation's code and populating diagrams and tables within the modeling software. The first project
-    she did at MITRE was a tool using proxmox the virtualization manager to spin up qemu virtual machines and set up a network based 
-    on configuration files supplied. The program would then run MITRE's caldera ("red team" hacker bot) on the virtualized network and
-    machines.\\
+    \> Software Systems Engineer for the Emerging Systems Engineering Technologies department at MITRE. The following is the 
+    description of the projects and tasks that she completed, most recent to least:\\ 
+
+    \begin{itemize}[noitemsep,topsep=0pt]
+      % \setlength\itemsep{0em}
+      \item Most recently she worked on C++ model of a system to be used for testing, mostly working on the routing of data 
+      throughout it so it could integrate well.
+      \item She also worked on a set of tools used for identifying important connections in models of networks.
+      \item Another effort she worked on was integrating a simulation environment with the modeling tool MagicDraw, this involved 
+      a set of static analysis tools that looked at the Abstract Syntax Tree of the simulation's code and populating diagrams and 
+      tables within the modeling software.
+      \item She worked on a tool using proxmox the virtualization manager to spin up qemu virtual machines and 
+      set up a network based on configuration files supplied. The program would then run MITRE's caldera ("red team" hacker simulator) on 
+      the virtualized network and machines.
+    \end{itemize}\\
 
     \multicolumn{1}{c}{} \\
 
     % uml.cafe
-    \large \textbf{uml.cafe} \normalsize \textit{Independent, June 2021 - Current}
+    \large \textbf{uml.cafe} \normalsize \textit{Independent, \hfill June 2021 - Current}
 
     \> \href{https://uml.cafe}{uml.cafe} is the domain name of a live, multi-user, UML diagramming web application made completely 
     by Emory. It is compromised of 4 different code repositories that she worked on in her free time after work. The four parts are: 
     The simple and quick \href{https://github.com/nemears/uml-cpp}{uml-cpp} which manages the core of the uml operations on the backend
     per user. \href{https://github.com/nemears/uml-user-service}{uml-user-service} is a websocket server written in Rust used as a layer to
     handle user level interactions and serves as the website api endpoint. \href{https://github.com/nemears/uml-js}{uml-js} is the 
-    Javascript library that serves as the api to interact with the backend / endpoint of the server. \href{https://github.com/open-uml2}{open-uml2}
-    is the Vue frontend app that makes up the visuals of \href{https://uml.cafe}{uml.cafe}. Play around with it if you have time.\\
+    JavaScript library that serves as the api to interact with the backend / endpoint of the server. \href{https://github.com/nemears/uml-cafe}{uml-cafe}
+    is the Vue frontend app that makes up the visuals of \href{https://uml.cafe}{uml.cafe}. Please feel free to play around with it if you have time.\\
 
     \multicolumn{1}{c}{} \\
 
     % MQP
-    \large \textbf{Non-Equilibrium Thermodynamics Research} \normalsize \textit{WPI, June 2018 - June 2019}
+    \large \textbf{Thermodynamics Research} \normalsize \textit{WPI, 100 Institute rd, Worcester MA \hfill June 2018 - June 2019}
 
     \> While working on the WPI senior year MQP capstone she was able to work in a lab and assisted with some image analysis 
-    algorithms written in python that were used and eventually cited in a \href{https://arxiv.org/pdf/1812.06002.pdf}{publication in Nature}.
+    algorithms written in python that were used and eventually cited in a \href{https://arxiv.org/pdf/1812.06002.pdf}{publication in Nature}
+    to validate some non-equilibrium thermodynamics Theory a staff member was working on.
 
 \end{tabular}
 
